@@ -4,6 +4,9 @@
   "description": "Find the closest matching semver from an array of semver versions",
   "main": "index.js",
   "repository": "https://github.com/pastelsky/semver-closest.git",
+  "files": [
+    "./index.js"
+  ],
   "author": "Shubham Kanodia <shubham.kanodia10@gmail.com>",
   "license": "MIT",
   "scripts": {
