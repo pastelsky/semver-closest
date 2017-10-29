@@ -12,7 +12,7 @@ function findClosestSemverMatch(semverString, semverStringArray) {
 
     return Math.abs(
       (parsedSemverA.major * 100 + parsedSemverA.minor * 10 + parsedSemverA.patch) -
-      (parsedSemverB.major * 100 + parsedSemverB.minor * 10 + parsedSemverB.patch),
+      (parsedSemverB.major * 100 + parsedSemverB.minor * 10 + parsedSemverB.patch)
     )
   })
 
