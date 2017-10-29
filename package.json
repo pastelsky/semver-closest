@@ -1,6 +1,6 @@
 {
   "name": "semver-closest",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Find the closest matching semver from an array of semver versions",
   "main": "index.js",
   "repository": "https://github.com/pastelsky/semver-closest.git",
