@@ -1,0 +1,19 @@
+{
+  "name": "semver-closest",
+  "version": "0.1.0",
+  "description": "Find the closest matching semver from an array of semver versions",
+  "main": "index.js",
+  "repository": "https://github.com/pastelsky/semver-closest.git",
+  "author": "Shubham Kanodia <shubham.kanodia10@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "semver": "^5.4.1"
+  }
+}
