@@ -36,6 +36,6 @@ it('finds closest version if no exact match found (pre-release in array)', () =>
 })
 
 it('finds closest version if no exact match found (pre-release given)', () => {
-  const res = findClosestSemverMatch('^1.2.0', ['2.1.9', '4.3.1', '5.2.2'])
+  const res = findClosestSemverMatch('1.2.0', ['2.1.9', '4.3.1', '5.2.2'])
   expect(res).toEqual('2.1.9')
 })
